@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(127, 200, 237);
+}
+
+/* input:checked ~ img {
+  display: none;
+  visibility: hidden;
+} */
+/* img {
+  transition: 1.5s;
+}
+h2 {
+  user-select: none;
+} */
+/* a:hover {
+  color: aqua;
+  font-size: 30px;
+} */
+
+/* Tác dụng lên link khi dữ nhấn giữ chuột */
+.click:active {
+  color: red;
+  font-size: 30px;
+}
+
+/* Tác dụng lên link chưa truy cập */
+.click:link {
+  color: aqua;
+}
+
+/* Tác dụng lên link đã truy cập */
+.click:visited {
+  color: red;
+}
+.tieu-de {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+  text-align: center;
+}
+.muc-luc {
+  font-size: 20px;
+  color: ;
+}
+.div-empty:empty {
+  width: 153px;
+  height: 204px;
+  background-color: white;
+}
+/* Có thuộc tính empty và không nội dunng thì màu trắng */
+.div-empty:empty {
+  width: 153px;
+  height: 204px;
+  background-color: white;
+}
+
+/* Bỏ thuộc tính empty và có nội dung thì chuyển sang màu đen */
+.div-empty {
+  width: 153px;
+  height: 204px;
+  background-color: rgb(0, 0, 0);
+}
+h2:target {
+  color: white;
+}
